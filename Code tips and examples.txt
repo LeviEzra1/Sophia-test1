@@ -1,0 +1,55 @@
+Sub "name" - Begins code 
+
+If - checks to see function - than / input function
+Than - 
+Elseif - if failure do this / do this / input function
+end if - ends the function
+
+For X = # - # function loops 
+Exit for - ends loop early used for finding data first 
+Next X ends function loop
+
+Msgbox " X " = makes popup for excel 
+
+Cells(x, y).value = the cell in the excel sheet
+X = collem
+Y = row
+
+
+Examples 
+----------------------------------------------------
+		Example of repeating function in VBA (Counting up)
+
+Sub Star()
+
+For Row_ = 2 To 10
+
+        Star_count = 0
+    For Col_ = 4 To 8
+    
+        If Cells(Row_, Col_).Value = "Full-Star" Then
+            Star_count = Star_count + 1
+        End If
+
+
+    Next Col_
+            Cells(Row_, 9).Value = Star_count
+ 
+Next Row_
+
+
+End Sub
+-------------------------
+Notes
+
+For Row_ = 2 to 10 (This now will read through the row/collem depending on its position in the cell (X, Y))
+
+		Star_count = 0 (Defines varible)
+	for Col_ = 4 to 8 (This now will read through the row/collem depending on its position in the cell (X, Y))
+
+		
+
+
+
+
+
